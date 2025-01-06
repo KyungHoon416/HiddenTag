@@ -9,7 +9,7 @@
 #import "HIDDENPhotoViewCell.h"
 #import "HIDDENPhotoPickerTheme.h"
 
-/// 포토 이미지 클릭시 관련해서 숫자와 이미지
+
 static const CGFloat HIDDENHightedAnimationDuration = 0.15;
 static const CGFloat HIDDENUnhightedAnimationDuration = 0.4;
 static const CGFloat HIDDENHightedAnimationTransformScale = 0.9;
@@ -26,6 +26,7 @@ static const CGFloat HIDDENUnhightedAnimationSpringVelocity = 6.0;
 @end
 
 @implementation HIDDENPhotoViewCell
+#pragma mark -포토 이미지 클릭시 관련해서 숫자와 이미지
 
 - (void)awakeFromNib {
     [super awakeFromNib];
