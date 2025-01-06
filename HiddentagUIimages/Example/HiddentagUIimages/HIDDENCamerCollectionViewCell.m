@@ -21,6 +21,7 @@
     
     
 }
+#pragma mark -비디오 영상관련 방향
 
 - (void)layoutSubviews
 {
@@ -29,7 +30,6 @@
     self.previewLayer.bounds = self.bounds;
     self.previewLayer.position = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
     AVCaptureVideoOrientation orientation;
-    ///비디오 영상관련 방향
     switch ([UIDevice currentDevice].orientation) {
         case UIDeviceOrientationUnknown:
         case UIDeviceOrientationPortrait:

@@ -9,6 +9,7 @@
 #import "HIDDENAlbumPickerViewController.h"
 #import <Photos/Photos.h>
 #import "HIDDENPhotoPickerTheme.h"
+/// 이미지 관련해서 PickerView
 
 @interface HIDDENAlbumPickerViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, copy) void (^dismissalHandler)(NSDictionary *);
